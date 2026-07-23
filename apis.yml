@@ -1,7 +1,12 @@
 aid: aladdin-b2b
 name: Aladdin B2B
-description: Aladdin B2B is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Aladdin B2B is a business-to-business matchmaking and meetings platform that helps enterprises,
+  event organizers, government trade-promotion agencies, and trade shows create qualified B2B meetings that
+  lead to transactions. Combining human expertise with artificial intelligence, Aladdin matches buyers and
+  sellers based on their stated needs and hundreds of intelligent signals, then organizes pre-qualified,
+  structured meetings and gives both parties the context they need beforehand. The platform is delivered
+  through the Aladdin mobile app and the Aladdin Wish Chrome extension, with particular strength across the
+  Middle East and Africa. Aladdin B2B is a portfolio company of 500 Global.
 url: https://raw.githubusercontent.com/api-evangelist/aladdin-b2b/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +14,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
+image: https://aladdinb2b.com/wp-content/uploads/2021/05/Aladdin-logo-1.svg
 tags:
 - Company
+- B2B
+- Matchmaking
+- Meetings
+- Events
+- Trade Shows
+- Networking
+- Middle East
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +47,24 @@ maintainers:
 common:
 - type: Website
   url: https://aladdinb2b.com
+- type: Blog
+  url: https://aladdinb2b.com/blog/
+- type: Pricing
+  url: https://aladdinb2b.com/pricing/
+- type: Support
+  url: https://aladdinb2b.com/contact/
+- type: Login
+  url: https://aladdinb2b.com/login/
+- type: TermsOfService
+  url: https://aladdinb2b.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://aladdinb2b.com/privacy/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/aladdinb2b/
+- type: DomainSecurity
+  url: security/aladdin-b2b-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
